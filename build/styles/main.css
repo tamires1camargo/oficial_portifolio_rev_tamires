@@ -5,11 +5,11 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 body {
   background-color: #192a56;
-  color:#fff;
+  color: #fff;
 }
 .container {
   max-width: 960px;
@@ -45,13 +45,16 @@ header {
 
 header .profile-avatar {
   display: block;
-  margin: 0 auto 24px;
+  margin: 0 auto 14px;
   border-radius: 100px;
-  margin-top: 100px;
+  margin-top: 690px;
 }
+
 .profile-bio {
   text-align: center;
+  margin-top: 2px;
 }
+
 .profile-bio-name {
   font-size: 36px;
   margin-bottom: 8px;
@@ -104,7 +107,7 @@ li {
   padding: 22px 20px;
   margin-bottom: 18px;
   text-align: center;
-  color:#192a56;
+  color: #192a56;
   font-weight: bold;
   font-size: 22px;
   border-radius: 30px;
@@ -136,14 +139,26 @@ li {
 }
 
 footer {
-  margin-top: 450px;
+  margin-top: 950px;
   margin-bottom: 20px;
   text-align: center;
   font-size: 18px;
 }
 @media (max-width: 767px) {
   footer {
-    margin-top: 700px;
+    margin-top: 950px;
     font-size: 14px;
+  }
+}
+
+.tema {
+  align-items: center;
+  margin-left: 4px;
+  max-width: 100%;
+}
+
+@media (max-width: 767px) {
+  .tema {
+    max-width: 98%;
   }
 }
